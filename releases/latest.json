@@ -1,3 +1,5 @@
 {
-"tag_name": "0.0.0"
+  "version": "1.0.0",
+  "package_name": "VitDeck-1.0.0-alpha1.unitypackage",
+  "download_url": "https://github.com/vkettools/VitDeckTest/releases/download/1.0.0-alpha1/VitDeck-1.0.0-alpha1.unitypackage"
 }

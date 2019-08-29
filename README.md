@@ -35,7 +35,7 @@ VitDeckは多人数で特定のルールに沿ったUnityのアセットを同�
 - ```（機能イメージ）```
 
 # ツール構成方法
-VitDeckの各機能の構成方法は以下を参照してください。
+VitDeckを配布する前に管理者が各機能を構成する方法は以下を参照してください。
 - [テンプレートの作成方法](https://github.com/vkettools/VitDeck/wiki/MakingTemplate)
 - [ルールセットの作成方法](https://github.com/vkettools/VitDeck/wiki/MakingRuleSet)
 - [エクスポート設定の作成方法](https://github.com/vkettools/VitDeck/wiki/MakingExportSetting)

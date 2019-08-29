@@ -12,7 +12,7 @@ VitDeckは多人数で特定のルールに沿ったUnityのアセットを同�
 
 作業管理者が事前にテンプレートおよびチェック用のルールを構成した上で作業者に配布することを前提にしています。
 # インストール方法
-最新のリリースをダウンロードし、VitDeckを使用したいUnityプロジェクトにzipファイル内のunitypackageをインポートしてください。
+[最新のリリース](https://github.com/vkettools/VitDeck/releases/latest)をダウンロードし、VitDeckを使用したいUnityプロジェクトにzipファイル内のunitypackageをインポートしてください。
 正しくインポートされるとメニューバーに`VitDeck`が表示されます。
 
 # 各機能の使い方

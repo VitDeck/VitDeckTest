@@ -45,7 +45,7 @@ VitDeckを配布する前に管理者が各機能を構成する方法は以下�
 VitDeckでは検証したいルールの組み合わせとその設定をルールセットと呼ばれる単位で管理します。
 管理者は最初に[ルールセットを構成](https://github.com/vkettools/VitDeck/wiki/MakingRuleSet)してください。
 
-- ```（ルールセットイメージ）```
+![SampleRuleSet](/img/SampleRuleSet.png)
 
 以下のルールが最初から利用でき、独自ルール（C#で記述）も定義可能です。
 - 指定のUnityバージョンで動作しているか検証

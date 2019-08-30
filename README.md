@@ -45,7 +45,24 @@ VitDeckを配布する前に管理者が各機能を構成する方法は以下�
 VitDeckでは検証したいルールの組み合わせとその設定をルールセットと呼ばれる単位で管理します。
 管理者は最初に[ルールセットを構成](https://github.com/vkettools/VitDeck/wiki/MakingRuleSet)してください。
 
-![SampleRuleSet](/img/SampleRuleSet.png)
+```csharp
+namespace VitDeck.Validator
+{
+    public class SampleRuleSet : BaseRuleSet
+    {
+        public override string RuleSetName
+        {
+            get { return "サンプルルールセット"; }
+        }
+        [Validation]
+        public IRule unityVersionRule = new UnityVersionRule("[U01]Unityバージョンルール", "2017.4.28f1");
+        [Validation]
+        public IRule assetNamingRule = new AssetNamingRule("[A01]アセット名の使用禁止文字ルール", @"[a-zA-Z0-9 _\.\-]+");
+        [Validation]
+        public IRule assetGuidBlacklistRule = new AssetGuidBlacklistRule("[A02]特定のGUIDを持つアセットの検出ルール",
+            new string[] { "740112f6e77ca914d9c26eef5d68accd", "ae68339621fb41b4f9905188526120ea" });
+        ...
+```
 
 以下のルールが最初から利用でき、独自ルール（C#で記述）も定義可能です。
 - 指定のUnityバージョンで動作しているか検証

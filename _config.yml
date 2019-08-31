@@ -2,4 +2,4 @@ theme: jekyll-theme-minimal
 title: VitDeck
 description: 
 logo: /img/VitDeck_icon_square.png
-show_downloads: true
+show_downloads: false
